@@ -1,3 +1,4 @@
+
 html,body{
     margin: 0;
     padding: 0;
@@ -5,18 +6,37 @@ html,body{
 .container{
    max-width: 1920px;
 }
+.navz{
+    position: absolute;
+    z-index: 1;
+    right: 10%;
+}
+.navz ul{
+    list-style: none;
+    margin: 20px;
+    padding:5px;
+
+}
+.navz ul li{
+    border: 1px solid blue;
+    list-style: none;
+    display: inline-block;
+    margin:15px;
+
+}
+.navz ul li a{
+
+    font-size: 1.5em;
+    color: #fff;
+
+}
 .vida{
     position: relative;
 
 }
 .vida video{
-    /*background-color: darkgray;
-    background: linear-gradient(
-        rgba(0,0,0, 0.8),
-        rgba(0,0,0, 0.8)
-        ),
 
-*/   margin: 0;
+   margin: 0;
     padding: 0;
     filter: brightness(40%);
     -webkit-filter: brightness(40%);
@@ -24,25 +44,16 @@ html,body{
     -o-filter: brightness(40%);
     -ms-filter: brightness(40%);
     overflow: hidden;
-
+    width: 100%;
 }
 .content{
     width: 100%;
     position: absolute;
-    top: 50%;
+    top: 40%;
 }
 .content .vtxt h3{
     color: #fff;
-    text-align: center
-
-}
-/*
-.vtxt{
-    position: absolute;
-    top:50%;
-    left: 50%;
+    text-align: center;
     font-size: 3em;
-    color: darkgrey;
 
 }
-*/
