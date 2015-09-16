@@ -1,0 +1,48 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+   max-width: 1920px;
+}
+.vida{
+    position: relative;
+
+}
+.vida video{
+    /*background-color: darkgray;
+    background: linear-gradient(
+        rgba(0,0,0, 0.8),
+        rgba(0,0,0, 0.8)
+        ),
+
+*/   margin: 0;
+    padding: 0;
+    filter: brightness(40%);
+    -webkit-filter: brightness(40%);
+    -moz-filter: brightness(40%);
+    -o-filter: brightness(40%);
+    -ms-filter: brightness(40%);
+    overflow: hidden;
+
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+}
+.content .vtxt h3{
+    color: #fff;
+    text-align: center
+
+}
+/*
+.vtxt{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    font-size: 3em;
+    color: darkgrey;
+
+}
+*/
