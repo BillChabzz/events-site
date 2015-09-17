@@ -4,6 +4,7 @@
         <title></title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+        <link rel="canonical"  href="https://dev.twitter.com/web/tweet-button">
         <link type="text/css" rel="stylesheet" href="main.css">
     </head>
   <body>
@@ -11,7 +12,7 @@
         <div class="navz">
             <nav>
                 <ul>
-                    <li><a href="index.html">Events</a></li>
+                    <li><a href="#featd">Events</a></li>
                     <li><a href="#">Schedule</a></li>
                     <li><a href="register.html">Register</a></li>
                 </ul>
@@ -33,7 +34,7 @@
             <div class="container">
 
         <section id="feat"><!--featured content-->
-            <div class="featured">
+            <div class="featured" id="featd">
                 <h2>Featured Event</h2>
               <div class="firebase-container">
                 <div class="fimg">
@@ -76,17 +77,32 @@
         <footer>
 <div class="footer">
 <div class="container">
-<p align="center">blah blah blah</p>
-    <ul class="list-inline footer-nav">
-    <li><a href="#home">Home</a></li>
-    <li><a href="#events">events</a></li>
-    <li><a href="#details">Details</a></li>
-    <li><a href="https://twitter.com/tos" target="_blank">Terms</a></li>
-<li><a href="https://twitter.com/privacy" target="_blank">Privacy</a></li>
-</ul>
+<div class="twtbtn">
+<div class="btn">
+                <a class="twitter-share-button"
+  href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fdev.twitter.com%2Fweb%2Ftweet-button%3Fsrc%3Dtwitter"
+  data-counturl="https://dev.twitter.com/web/tweet-button">
+Tweet</a>
+        </div>
+    </div>
+    <div class="socials">
+       <div class="lftside">
+        <ul class="list-inline footer-nav">
+            <li><a href="#home">Events</a></li>
+            <li><a href="#events">Schedule</a></li>
+            <li><a href="#details">Register</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+        </ul>
+        </div>
+        <div class="rghtside"><!--apis-->
+            <script src="https://apis.google.com/js/platform.js"></script>
+
+<div class="g-ytsubscribe" data-channelid="UCnkYPrm1GvxDzGlT0S2zn4w" data-layout="default" data-theme="dark" data-count="hidden"></div>
+        </div><!--apis-->
  </div>
 
-       <div style="text-align: right;" class="copyright"><small>&copy; 2015 <span>Tukio</span>. All Rights Reserved.</small></div>
+       <div style="text-align: center;" class="copyright"><small>&copy; 2015 <span>Tukio</span>. All Rights Reserved.</small></div>
 </div>
 
     </footer>

@@ -18,7 +18,7 @@ footer{
 .navz{
     position: absolute;
     z-index: 1;
-    right: 10%;
+    left: 10%;
 }
 .navz ul{
     list-style: none;
@@ -54,9 +54,9 @@ iframe{
 }
 /*registar css*/
 .heads{position: relative; display: block;}
-.rnav{margin-left: 100px;z-index: 1;}
+.rnav{padiing-left: 10px;right: 10% z-index: 1;}
 .rnav ul{ list-style: none; margin: 20px; padding: 5px;}
-.rnav ul li{list-style: none;display: inline-block; margin: 15px; padding: 10px;}
+.rnav ul li{list-style: none;display: inline-block; margin: 20px; padding: 15px;}
 .rnav ul li a{text-decoration: none; font-size: 1.5em;color: black;transition: all .2s ease;}
 .rnav ul li a:hover{border-bottom: 1px solid black; color:#db8f04;}
 .rnav ul li a{
@@ -163,8 +163,26 @@ margin: 30px;
     background: #007299;
     box-shadow: none;
 }
+.twtbtn{
+    margin-top:10px;
+    margin-left: 50% ;
+    margin-right: 41.8%;
+    padding: 0;
+    border: 1px solid #0097ff;
+    background-color: #83c6f4;
 
+}
+.twtbtn a{
+    text-decoration: none;
+    transition: .2s ease;
+    color: azure;
 
+}
+.twtbtn:hover{
+    background-color: transparent;
+    color:#83c6f4;
+
+}
 
 /*******************************************************************/
 .featured span{
