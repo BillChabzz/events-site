@@ -204,3 +204,32 @@ margin: 30px;
     margin-left: 10px;
     display: inline-block;
 }
+.socials{
+    display: block;
+}
+.socials ul li{
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+    font-size: 1.2em;
+
+}
+.socials ul li a{
+    text-decoration: none;
+    color: #83c6f4;
+    transition: all .2s ease;
+}
+.socials ul li a:hover{
+    color: #db8f04;
+
+}
+.lftside{
+    width: 50%;
+    padding-right: 50px;
+    display: inline-block;
+}
+.rghtside{
+    display: inline-block;
+    margin-left: 30px;
+
+}
