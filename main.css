@@ -37,11 +37,15 @@ footer{
     text-decoration: none;
     font-size: 1.5em;
     color: #fff;
+    transition: all .2s ease;
 
 
 }
 .navz ul li a:hover{
     border-bottom: 1px solid white;
+    color: #db8f04;
+
+
 }
 .vida{
     position: relative;
@@ -66,10 +70,57 @@ footer{
 }
 .content .vtxt h3,p{
     color: #fff;
+    padding-right:100px ;
     text-align: center;
     font-size: 3em;
+    font-family: arial;
 
 }
+
+.content .rbtn{
+    position: absolute;
+    right: 46%;
+    padding: 0;
+    margin: 0;
+}
+.content .btn-custom{
+
+    width: 200px;
+    border-radius: 0px;
+}
+/*
+.content .btn-custom:hover{
+    background-color: transparent;
+}
+*/
+/*******************************************************************/
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    font-family: "courier new";
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.btn-primary {
+    background: #0099cc;
+    color: #ffffff;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #33a6cc;
+}
+.btn-primary:active, .btn-primary.active {
+    background: #007299;
+    box-shadow: none;
+}
+
+
+
+/*******************************************************************/
 .featured span{
     color: #db8f04;
 }
