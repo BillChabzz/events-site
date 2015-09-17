@@ -3,8 +3,16 @@ html,body{
     margin: 0;
     padding: 0;
 }
+/*section{
+    display: block;
+}*/
+footer{
+    color: #bdbdbd;
+    background-color: #514b4b;
+    width: 100% ;
+}
 .container{
-   max-width: 1920px;
+   /*max-width: 1990px;*/
 }
 .navz{
     position: absolute;
@@ -18,17 +26,22 @@ html,body{
 
 }
 .navz ul li{
-    border: 1px solid blue;
+
     list-style: none;
     display: inline-block;
     margin:15px;
+    padding: 10px;
 
 }
 .navz ul li a{
-
+    text-decoration: none;
     font-size: 1.5em;
     color: #fff;
 
+
+}
+.navz ul li a:hover{
+    border-bottom: 1px solid white;
 }
 .vida{
     position: relative;
@@ -49,11 +62,27 @@ html,body{
 .content{
     width: 100%;
     position: absolute;
-    top: 40%;
+    top: 20%;
 }
-.content .vtxt h3{
+.content .vtxt h3,p{
     color: #fff;
     text-align: center;
     font-size: 3em;
 
+}
+.featured span{
+    color: #db8f04;
+}
+.firebase-container{
+    margin: 10px;
+}
+.fimg{
+    display: block;
+    line-height: 30px;
+}
+.fimg p{
+    border-bottom: 2px solid gray;
+    font-size: 1em;
+    margin-left: 100px;
+    display: inline-block;
 }
