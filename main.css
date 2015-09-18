@@ -236,6 +236,13 @@ margin: 30px;
     color: #db8f04;
 
 }
+.insocial{
+    display: inline-block;
+    margin: 5px;
+}
+.insocial.fb-share-button{
+    margin-bottom: 5px;
+}
 .lftside{
     width: 50%;
     padding-right: 50px;
